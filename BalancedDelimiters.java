@@ -1,14 +1,13 @@
-package Balanced;
 import java.util.*;
 
 /*
- * Jonathan Land
+ * @author Jonathan Land
  * 
  * Program to check if delimiters are balanced or not
  * 
  */
 
-public class Balanced 
+public class BalancedDelimiters 
 {
 	public static void main(String[] args) 
 	{

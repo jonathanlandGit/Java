@@ -1,2 +1,2 @@
 # Java Sample Programs 
-This file contains various Java programs. Some of them demonstrate practice with collections interface, as well as with dynamic programming. Other programs implement abstract data types. The degree of difficulty varies. 
+This file contains various Java programs. Some of the programs demonstrate working with different kinds of collections interfaces, as well various dynamic programming problems. Other programs implement abstract data types. The degree of difficulty varies. 

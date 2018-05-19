@@ -6,7 +6,7 @@ import java.util.TreeSet;
  * 10/23/2017
  */
 
-public class Program1 
+public class ComparatorTreeset 
 {
 	static class LenComp implements Comparator<String> 
 	{

@@ -1,6 +1,12 @@
-package Program6;
-
 import java.util.Scanner;
+
+/*
+@author Jonathan Land
+
+The first part of the program prints every other letter contained in the string
+The second part replaced the vowels with an underscore
+The third part changes a specific letter to another letter
+*/
 
 public class StringStuff 
 {

@@ -1,1 +1,1 @@
-# Java_PracticePrograms
+# SampleProjects

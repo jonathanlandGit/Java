@@ -268,7 +268,6 @@ public class ArrayList_methods
 			Random myGen = new Random();
 			final int TEST_SIZE = 9;
 			//our initial random test data goes into the following array list
-			//don't make changes to this array, it will hold your test data
 			ArrayList<Integer> listTestValues = new ArrayList<Integer>();
 			//fill in test arrayList
 			for (int i=0; i<TEST_SIZE; i++) 
@@ -277,14 +276,14 @@ public class ArrayList_methods
 				listTestValues.add(1+myGen.nextInt(50));
 			}
 			
-			//Now print the array list to show initial values
+			//print the array list to show initial values
 			System.out.println("Initial Array List:");
-			//you can use the following line to print the list
+			
 			System.out.println(listTestValues);
 			System.out.println();
 			
 			//create a new ArrayListMethods object.
-			//note the following line will also initialize our arraylist data
+			//note the following line will also initialize arraylist data
 			ArrayList_methods myMethods = new ArrayList_methods(listTestValues);
 						
 			//Test of swapFirstAndLast()
@@ -297,9 +296,7 @@ public class ArrayList_methods
 			System.out.println();
 			//reset the Array List to the initial test values
 			myMethods.setListValues(listTestValues);
-			
-			//***Begin second test below this line
-			
+						
 			//Test of shiftRight()
 			System.out.println("Before call to shiftRight():");
 			System.out.println(myMethods.listValues);
@@ -379,17 +376,28 @@ public class ArrayList_methods
 			System.out.println("Before call to isSorted() - random array input");
 			System.out.println(myMethods.listValues);
 			//loop to print if-else sys out statement
-			if (myMethods.isSorted()) {
+			
+			if (myMethods.isSorted()) 
+			{
 				System.out.println("Array is SORTED in increasing order ");
-			} else {
+			} 
+			
+			else 
+			{
 				System.out.println("Array is UNSORTED");
 			}
+			
 			System.out.println("Before call to isSorted() - sorted array input");
 			Collections.sort(myMethods.listValues);
 			System.out.println(myMethods.listValues);
-			if (myMethods.isSorted()) {
+			
+			if (myMethods.isSorted()) 
+			{
 				System.out.println("Array is SORTED in increasing order ");
-			} else { 
+			} 
+			
+			else 
+			{ 
 				System.out.println("Array is UNSORTED");
 			}
 			System.out.println();
@@ -403,6 +411,7 @@ public class ArrayList_methods
 			{
 				System.out.println("Array HAS Adjacent Duplicates.");
 			} 
+			
 			else 
 			{
 				System.out.println("Array DOES NOT have Adjacent Duplicates.");

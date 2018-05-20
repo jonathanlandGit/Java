@@ -1,2 +1,2 @@
 # Java Sample Programs 
-This is just a compilation of some the Java programs I have worked on. Some of the programs demonstrate working with different kinds of collections interfaces, as well various other dynamic programming problems. Other programs implement abstract data types. The degree of difficulty varies. 
+This is a compilation of some of the Java programs I have worked on. These programs demonstrate working with the different kinds of collection interfaces in Java and how to approach algorithms from a dynamic programming perspective. Some of the other programs implement abstract data types. The degree of difficulty varies. 

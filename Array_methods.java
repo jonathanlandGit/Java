@@ -258,7 +258,6 @@ import java.util.Random;
 
 	public static void main(String[] args) 
 	{
-		
 		// First fill an array with random values
 		Random myGen = new Random();
 		
@@ -276,7 +275,6 @@ import java.util.Random;
 		System.out.println("Initial Array:");
 		// note the usage of the "toString()" method here to print the array
 		System.out.println(Arrays.toString(testValues));
-		// blank line
 		System.out.println();
 		
 		// create a new ArrayMethods object.

@@ -20,7 +20,6 @@ public class ConcurrencyAndSemaphores
 	static Semaphore lock1 = new Semaphore(1);
 	static Semaphore lock2 = new Semaphore(1);
 
-	// first class
 	static public class testclass1 implements Runnable 
 	{
 		public void run() 
@@ -69,7 +68,6 @@ public class ConcurrencyAndSemaphores
 		}
 	}
 
-	// second class
 	static public class testclass2 implements Runnable 
 	{
 
@@ -125,7 +123,6 @@ public class ConcurrencyAndSemaphores
 		}
 	}
 
-	// tester
 	public static void main(String[] args) 
 	{
 		(new Thread(new testclass1())).start();

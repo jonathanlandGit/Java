@@ -41,7 +41,6 @@ import java.util.Random;
 		return values;
 	}
 
-
 	public void swapFirstAndLast() 
 	{
 		// save the first element to a temp var
@@ -81,9 +80,9 @@ import java.util.Random;
 		}
 	}
 
-	// replace each element except the first and last by larger of two
-	// around it
-	public void largerOfAdjacents() {
+	// replace el except the first and last by larger of two around it
+	public void largerOfAdjacents() 
+	{
 		//declare int named leftHand and assign it to the first position of array
 		int leftHand = values[0];
 		//for loop to traverse the array begininng at 1, going to the last element, and incrementing by one
@@ -95,6 +94,7 @@ import java.util.Random;
 				values[i] = leftHand;
 				leftHand = temp;
 			}
+			
 			else 
 			{
 				//since the right hand is largest, will change current value to the right hand which is i
@@ -105,7 +105,8 @@ import java.util.Random;
 	}
 
 	// remove middle el if odd length, else remove middle two els.
-	public void removeMiddle() {
+	public void removeMiddle() 
+	{
 		//Do not do remove anything if value is less than size 3
 		if (values.length < 3)
 		{
@@ -126,6 +127,7 @@ import java.util.Random;
 			//assign newArray to values variable
 			values = newArray; 
 		}
+		
 		else
 		{
 			//odd length array
@@ -143,7 +145,8 @@ import java.util.Random;
 	}
 	
 	// move all evens to front
-	public void moveEvensToFront() {
+	public void moveEvensToFront() 
+	{
 		// create variable of type int and initialize it to 0
 		int temp = 0;
 		// create another variable and initialize it to 0
@@ -166,7 +169,8 @@ import java.util.Random;
 	}
 
 	// return second largest el in array
-	public int ret2ndLargest() {
+	public int ret2ndLargest() 
+	{
 		// declare a variable of type int named largest and initialize it
 		int largest = 0;
 		// traverse the array
@@ -197,7 +201,8 @@ import java.util.Random;
 	}
 
 	//  returns true if array is sorted in increasing order
-	public boolean isSorted() { 
+	public boolean isSorted() 
+	{ 
 		// begin at first index and traverse array to last element
 		for (int i = 0; i < values.length - 1; i++) 
 		{ 
@@ -213,15 +218,16 @@ import java.util.Random;
 	
 	//  return true if array contains 2 adjacent duplicate values
 
-	public boolean hasAdjDuplicates() {
+	public boolean hasAdjDuplicates() 
+	{
 		//traverse the array beginning at first index, moving to last index, incrementing by 1
 		for (int i = 0; i < values.length-1; i++)
 		{
 			//if values of each element traversed is equal to value next to it, then
 			if (values[i] == values[i+1]) 
-	        {
-			 return true;
-	        }
+	        	{
+			 	return true;
+	        	}
 	    }
 		//otherwise
 	    return false;
@@ -230,7 +236,8 @@ import java.util.Random;
 	//  return true if array contains 2 duplicate values
 	// duplicates need not be adjacent to return true
 
-	public boolean hasDuplicates() {
+	public boolean hasDuplicates() 
+	{
 		// traverse the array to the last element, incrementing by 1 each time
 		for (int i = 0; i < values.length - 1; i++) 
 		{ 
@@ -410,6 +417,7 @@ import java.util.Random;
 		{
 			System.out.println("Array HAS Adjacent Duplicates.");
 		} 
+		
 		else 
 		{ 
 			System.out.println("Array DOES NOT have Adjacent Duplicates.");
@@ -422,9 +430,13 @@ import java.util.Random;
 		System.out.println("Before call to hasDuplicates() - Array set for FALSE");	
 		myMethods.values = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 		myMethods.printArray();
-		if (myMethods.hasDuplicates()) {
+		if (myMethods.hasDuplicates()) 
+		{
 			System.out.println("Array HAS duplicates ");
-		} else {
+		} 
+		
+		else 
+		{
 			System.out.println("Array DOES NOT have Duplicates");
 		}
 		myMethods.values = new int[] { 26, 49, 41, 5, 33, 24, 44, 15, 46, 26 };
@@ -434,7 +446,10 @@ import java.util.Random;
 		if (myMethods.hasDuplicates()) 
 		{
 			System.out.println("Array HAS duplicates ");
-		} else {
+		} 
+		
+		else 
+		{
 			System.out.println("Array DOES NOT have Duplicates");
 		}
 		System.out.println();

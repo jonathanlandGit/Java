@@ -8,7 +8,7 @@ import java.util.Arrays;
 /*
  * @author Jonathan Land
  * 
- * Program that includes various methods using arraylist data structure
+ * Program that executes various methods using an arraylist data structure with randomized values each time the program runs.
  */
 
 public class ArrayList_methods 

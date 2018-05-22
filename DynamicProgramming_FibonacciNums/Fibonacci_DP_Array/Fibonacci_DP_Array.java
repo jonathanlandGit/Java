@@ -1,7 +1,10 @@
 package Fibonacci_DP_Array;
 
 /*
- * Jonathan Land
+ @author Jonathan Land
+ 
+ This program is an example of applying dynamic programming using an array data structure to cache the values. 
+ The program calculates the timings of various data sizes. THese, of course, can be changed in the code.
  */
 
 public class Fibonacci_DP_Array

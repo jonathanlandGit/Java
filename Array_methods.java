@@ -2,12 +2,10 @@ package Array_methods;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
- *
+/*
  * @author Jonathan Land
  * 
- * Program that includes various methods on a randomized array
- * 
+ * Program that executes various methods using an array data structure with randomized values each time the program runs.
  */
 
 	public class Array_methods 

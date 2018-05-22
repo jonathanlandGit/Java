@@ -1,6 +1,12 @@
 package Fibonacci_DP_Logn;
 import java.util.*;
 
+/*
+ * Dynamic programming approach to calculate fibonacci numbers using an array to cache values 
+ * The program also calculates the timings of various data sizes. THese, of course, can be changed in the code.
+ * This algorithm is performs in logN time.
+ */
+
 public class Fibonacci_DP_Logn 
 {
 	static long f[];

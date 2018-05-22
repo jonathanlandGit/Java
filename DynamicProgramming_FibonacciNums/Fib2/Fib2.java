@@ -1,5 +1,9 @@
 package Fib2;
 
+/*
+This program utilizes an array to cache the values, using the traditional fibonacci algorithm.
+*/
+
 public class Fib2 
 {
 	public static long fibArray[] = new long[200];

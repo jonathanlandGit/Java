@@ -3,8 +3,9 @@ package Fibonacci_DP_LinkedList;
 import java.util.LinkedList;
 
 /*
- * Jonathan Land
- * Dynamic programming approach to calculate fibonacci numbers using a linked list to cache values
+ * @author Jonathan Land
+ * Dynamic programming approach to calculate fibonacci numbers using a linked list to cache values 
+ * The program also calculates the timings of various data sizes. THese, of course, can be changed in the code.
  */
 
 public class Fibonacci_DP_LinkedList 

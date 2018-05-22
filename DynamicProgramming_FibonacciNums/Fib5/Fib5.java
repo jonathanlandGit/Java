@@ -1,10 +1,9 @@
 package Fib5;
-
-//Java program to compute n-th Fibonacci
-//number where n may be large.
 import java.io.*;
 import java.util.*;
 import java.math.*;
+
+//Java program to compute n-th Fibonacci using BigInteger. The other programs utiliize Dynamic programming.
 
 public class Fib5 
 {

@@ -1,10 +1,8 @@
-
-
 //author: Jonathan Land
-//inheritance of base class BankAccount via extends keyword called CheckingAccount
-public class CheckingAccount extends BankAccount {
-	
-	//variable to hold account type
+
+public class CheckingAccount extends BankAccount 
+{	
+	//ivar to hold account type
 	String accountType;
 	//variable to hold number of checks written
 	int numberOfChecksWritten;

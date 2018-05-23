@@ -2,8 +2,6 @@
 
 public class BankAccount 
 {
-	//instance variables - cited from pgs. 96-97 and 395 of course textbook 
-	//instance variables also include content in lab04 assignment (Design and Inheritance) by Professor Hare
 	private double balance;
 	private String name; 
 	private int accountNumber;

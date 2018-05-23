@@ -33,9 +33,7 @@ public class Fibonacci_DP_Array
 	}
 
 	public static void main(String[] args) 
-	{
-		
-		//for all i from 0 to 95 
+	{		
 		for (int i = 0; i < 199; i++) 
 		{
 			//set fibArr to -1

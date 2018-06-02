@@ -4,22 +4,22 @@ import java.util.Scanner;
 @author Jonathan Land
 
 The first part of the program prints every other letter contained in the string
-The second part replaced the vowels with an underscore
-The third part changes a specific letter to another letter
+The second part replaces the vowels with an underscore
+The third part changes a specified letter to another letter
 */
 
 public class StringStuff 
 {
-	public static void main(String[]args)
-    {
-      String binary_phrase;      
-      System.out.print("Please enter word: "); 
-      Scanner in = new Scanner(System.in);
-      binary_phrase = in.nextLine();
-      String binaryCopy = binary_phrase;
+     public static void main(String[]args)
+     {
+      	String binary_phrase;      
+     	 System.out.print("Please enter word: "); 
+     	 Scanner in = new Scanner(System.in);
+     	 binary_phrase = in.nextLine();
+     	 String binaryCopy = binary_phrase;
 
-      char secondLetter = 0;
-      System.out.println("Every other letter of the String");
+      	char secondLetter = 0;
+     	 System.out.println("Every other letter of the String");
       
       for(int i = 1; i < binary_phrase.length(); i +=2)
       {

@@ -8,8 +8,8 @@ import java.util.Random;
  * Program that executes various methods using an array data structure with randomized values each time the program runs.
  */
 
-	public class Array_methods 
-	{
+public class Array_methods 
+{
 	private int[] values;
 
 	// constructor - give it an array of initial values and they will

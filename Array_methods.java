@@ -259,6 +259,7 @@ public class Array_methods
 		// First fill an array with random values
 		Random myGen = new Random();
 		
+		//final ivar, so do not change this
 		final int TEST_SIZE = 10;
 		
 		//initial random test data goes into the following array

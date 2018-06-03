@@ -13,7 +13,6 @@ import java.util.Arrays;
 
 public class ArrayList_methods 
 {
-		//ArrayList to hold values to work on for lab
 		private ArrayList<Integer> listValues;
 
 		//ArrayList constructor

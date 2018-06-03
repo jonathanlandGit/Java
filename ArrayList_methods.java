@@ -8,7 +8,7 @@ import java.util.Arrays;
 /*
  * @author Jonathan Land
  * 
- * Program that executes various methods on an arraylist data structure. The ArrayList is populated with randomized 
+ * Program that executes various methods on an arraylist data structure. The arrayist is populated with randomized 
  * values each time tests are run.
  */
 

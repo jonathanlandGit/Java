@@ -15,12 +15,12 @@ public class MainTester
 		System.out.println(m1);
 		System.out.println();
 		//create Manager object including explicit parameters
-		Manager m2 = new Manager("James Gosling", 700000.51, "Software Developer");
+		Manager m2 = new Manager("James Gosling", 700000.51, "Software");
 		//print
 		System.out.println(m2);
 		System.out.println();
 		//create Executive object including explicit parameters
-		Executive m3 = new Executive("Bjarne Stroustrup", 7000000.52, "Software Developer");
+		Executive m3 = new Executive("Bjarne Stroustrup", 7000000.52, "Software");
 		//print
 		System.out.println(m3);
 		System.out.println();

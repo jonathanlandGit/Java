@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 public class PeriodicTable 
 {
-	// we need to store the data of the periodic table in a map to
+	// storing the data of the periodic table in a map to
 	// retrieve this by moleluces class (notice this is the same
 	// args that we use in that class), so we are passing in String
 	// and then the Molecules class
@@ -61,7 +61,6 @@ public class PeriodicTable
 		loadTable();
 	}
 
-	// the getters of molecules
 	public Molecules getMolecule(String Name) 
 	{
 		return mapp.get(Name);

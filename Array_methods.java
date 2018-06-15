@@ -20,7 +20,7 @@ public class Array_methods
 	}
 
 	// a function to reset the array to the values passed in as a parameter
-	// you will want to use this method after each test you do in the main
+	// this method is used after each test you do in the main
 	// method
 	public void setValues(int[] newValues) 
 	{

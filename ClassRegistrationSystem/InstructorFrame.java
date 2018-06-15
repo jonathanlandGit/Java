@@ -33,7 +33,7 @@ public class InstructorFrame extends JFrame
 {	//two linked lists to hold data for frame and 
 	//for retrieving data in staff and student frame
 	private LinkedList<String> ll = new LinkedList<>();
-	private LinkedList<String> ll1 = new LinkedList<>();
+	private LinkedList<String> ll2 = new LinkedList<>();
 	private JPanel contentPane;
 
 	/**
@@ -197,9 +197,9 @@ public class InstructorFrame extends JFrame
 					{
 						//we have to loop through the linked list 
 						//and get the row with the proper spacing 
-						for (int i = 0; i < ll1.size(); i++) 
+						for (int i = 0; i < ll2.size(); i++) 
 						{
-							model.addRow(ll1.get(i).split(","));
+							model.addRow(ll2.get(i).split(","));
 						}
 					}
 					//give error if can't be completed
@@ -298,7 +298,7 @@ public class InstructorFrame extends JFrame
 			reader = new BufferedReader(new FileReader(file));
 			while ((line = reader.readLine()) != null) 
 			{
-				ll1.add(line);
+				ll2.add(line);
 			}
 			reader.close();
 		}

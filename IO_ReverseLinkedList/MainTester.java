@@ -14,6 +14,6 @@ public class MainTester
 {
 	public static void main(String[] args) throws IOException 
 	{
-		Reverse r = new Reverse("/Users/sland/test.txt", "/Users/sland/test1.txt");
+		Reverse r = new Reverse("/Users/jland/test.txt", "/Users/jland/test1.txt");
 	}
 }

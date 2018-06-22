@@ -1,6 +1,6 @@
 package ArrayList_methods;
 
-import java.util.Collections; //need this one for sorting ArrayList
+import java.util.Collections; 
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.Arrays;

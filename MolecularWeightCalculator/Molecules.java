@@ -2,6 +2,9 @@
 /**
  * Jonathan Land
  */
+
+//class to hold blueprint data for molecule object
+
 public class Molecules 
 {
 	private String aName;

@@ -1,5 +1,4 @@
 //author: Jonathan Land
-//inheritance of base class BankAccount via extends keyword called SavingsAccount
 public class SavingsAccount extends BankAccount 
 {
 	//variable of type double to hold interest

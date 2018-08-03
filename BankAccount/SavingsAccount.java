@@ -6,7 +6,7 @@ public class SavingsAccount extends BankAccount
 	//variable to hold account type
 	String accountType;
 
-	//constructor with two parameters/arguments passed in
+	//constructor that accesses constructor of parent class and accepts user initial balance and account name
 	public SavingsAccount(String accountName, double initialBalance)
 	{	
 		//inovokes constructor of paraent class/superclass/base class

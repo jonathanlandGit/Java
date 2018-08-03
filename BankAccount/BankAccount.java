@@ -6,8 +6,7 @@ public class BankAccount
 	private String name; 
 	private int accountNumber;
 	//note: private static 
-	private static int lastAssignedNumber;
-	//note: public static final double
+	private static int lastAssignedNumber; 
 	public static final double OVERDRAFT_FEE = 20.00;
 	
 	//constructor to initialize instance variables
